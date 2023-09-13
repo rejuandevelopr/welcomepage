@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Short & Silly</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  
+    
+    
+    
+    <!-- <canvas id="canvas" class="confetti-canvas"></canvas> -->
+    
+    <section class="main">
+    <div class="container">
+        <div class="container_two">
+            <div class="thanks_div">
+                <div class="head">
+                    <h1 class="text-center">🎉<br> 
+                        We've got it!<br> 
+                        Thank You!</h1>
+                </div>
+                <p class="text-center">We hope to have your proof ready by:</p>
+                <h2 class="text-center">11th of August 2023</h2>
+                <p>Please check your email inbox on the date above to approve your artwork.</p>
+                <div class="guideline">
+                    <ul>
+                        <li>Your form has been received successfully (no need to contact us again for further confirmation).</li>
+                        <li>If there is an issue we will contact you.</li>
+                        <li>We are <span>off during the weekend and public holidays.</span> We will respond to your message during a working day.</li>
+                    </ul>
+    
+                </div>
+            </div>
+    
+            <div class="interest_head mt-4">
+                <h2>You May be Interested in</h2>
+            </div>
+    
+            <div class="row mt-4 mb-5">
+                <div class="col-md-6 align">
+                    <div class="part_one">
+                        <img class="img-fluid" src="./Page Materials/Thank you 2.png" alt="Interest One Image">
+                        <h3>Rush Turnaround</h3>
+                        <span>Need it quick? ready in 24h</span><br>
+                        <span class="rate">ONLY €9.99 GBP</span>
+                    </div>
+                </div>
+    
+                <div class="col-md-6 align margin_responsive">
+                    <div class="part_one">
+                        <img class="img-fluid" src="./Page Materials/Thank you 1.png" alt="Interest One Image">
+                        <h3>Full Body Illustration Upgrade</h3>
+                        <span>Our default illustration is half-body</span><br>
+                        <span class="rate">ONLY €9.99 GBP</span>
+                    </div>
+                </div>
+    
+            </div>
+    
+        </div>
+       </div>
+
+  </section>
+   
+    
+    
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- <script>
+        let W = window.innerWidth;
+let H = 400;
+const canvas = document.getElementById("canvas");
+const context = canvas.getContext("2d");
+const maxConfettis = 150;
+const particles = [];
+
+const possibleColors = [
+  "DodgerBlue",
+  "OliveDrab",
+  "Gold",
+  "Pink",
+  "SlateBlue",
+  "LightBlue",
+  "Gold",
+  "Violet",
+  "PaleGreen",
+  "SteelBlue",
+  "SandyBrown",
+  "Chocolate",
+  "Crimson"
+];
+
+function randomFromTo(from, to) {
+  return Math.floor(Math.random() * (to - from + 1) + from);
+}
+
+function confettiParticle() {
+  this.x = Math.random() * W; // x
+  this.y = Math.random() * H - H; // y
+  this.r = randomFromTo(11, 33); // radius
+  this.d = Math.random() * maxConfettis + 11;
+  this.color =
+    possibleColors[Math.floor(Math.random() * possibleColors.length)];
+  this.tilt = Math.floor(Math.random() * 33) - 11;
+  this.tiltAngleIncremental = Math.random() * 0.07 + 0.05;
+  this.tiltAngle = 0;
+
+  this.draw = function() {
+    context.beginPath();
+    context.lineWidth = this.r / 2;
+    context.strokeStyle = this.color;
+    context.moveTo(this.x + this.tilt + this.r / 3, this.y);
+    context.lineTo(this.x + this.tilt, this.y + this.tilt + this.r / 5);
+    return context.stroke();
+  };
+}
+
+function Draw() {
+  const results = [];
+
+  // Magical recursive functional love
+  requestAnimationFrame(Draw);
+
+  context.clearRect(0, 0, W, window.innerHeight);
+
+  for (var i = 0; i < maxConfettis; i++) {
+    results.push(particles[i].draw());
+  }
+
+  let particle = {};
+  let remainingFlakes = 0;
+  for (var i = 0; i < maxConfettis; i++) {
+    particle = particles[i];
+
+    particle.tiltAngle += particle.tiltAngleIncremental;
+    particle.y += (Math.cos(particle.d) + 3 + particle.r / 2) / 2;
+    particle.tilt = Math.sin(particle.tiltAngle - i / 3) * 15;
+
+    if (particle.y <= H) remainingFlakes++;
+
+    // If a confetti has fluttered out of view,
+    // bring it back to above the viewport and let if re-fall.
+    if (particle.x > W + 30 || particle.x < -30 || particle.y > H) {
+      particle.x = Math.random() * W;
+      particle.y = -30;
+      particle.tilt = Math.floor(Math.random() * 10) - 20;
+    }
+  }
+
+  return results;
+}
+
+window.addEventListener(
+  "resize",
+  function() {
+    W = window.innerWidth;
+    H = window.innerHeight;
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+  },
+  false
+);
+
+// Push new confetti objects to `particles[]`
+for (var i = 0; i < maxConfettis; i++) {
+  particles.push(new confettiParticle());
+}
+
+// Initialize
+canvas.width = W;
+canvas.height = H;
+Draw();
+
+    </script> -->
+   
+</body>
+</html>

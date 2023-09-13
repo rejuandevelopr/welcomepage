@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+/* Nav Start */
+.navbar{
+    background-color: transparent !important;
+}
+.navbar-brand img{
+    width: 183px;
+    height: 80px;
+}
+
+/* Hero Start */
+#Hero_one{
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.hero_head h1{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 42px;
+}
+.hero_head p{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    margin-top: 8px;
+    color: rgba(153, 163, 177, 1);
+}
+.hero_pic{
+    margin-top: 31px;
+}
+
+/* Start Btn */
+.start_button .btn{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    padding: 18px 64px 18px 64px;
+    border-radius: 12px;
+
+    background-color: rgba(33, 33, 33, 1);
+    color: rgba(255, 255, 255, 1);
+    border: 2px solid rgba(33, 33, 33, 1);
+    margin-top: 50px;
+}
+.start_button .btn:hover{
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(33, 33, 33, 1);
+}
+
+
+/* Responsive */
+@media screen and (max-width:576px) {
+    .navbar-brand img{
+        width: 130px;
+        height: 56px;
+    }
+    #Hero_one{
+        padding-top: 6px;
+        padding-bottom: 12px;
+    }
+    .hero_head h1{
+        font-size: 22px;
+    }
+    .hero_head p{
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0em;
+        margin-top: 4px;
+        color: rgba(153, 163, 177, 1);
+    }
+    .start_button .btn{
+        padding: 14px 44px 14px 44px;
+        margin-top: 44px;
+    }
+}
+

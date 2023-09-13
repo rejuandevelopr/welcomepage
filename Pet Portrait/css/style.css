@@ -1,0 +1,720 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+/* Nav Start */
+.navbar{
+    background-color: transparent !important;
+}
+.navbar-brand img{
+    width: 183px;
+    height: 80px;
+}
+
+/* Hero Start */
+#Hero_one{
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.hero_head h1{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 42px;
+}
+.hero_head p{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    margin-top: 8px;
+    color: rgba(153, 163, 177, 1);
+}
+
+/* Container two */
+.container_two{
+    max-width: 762px;
+    margin: 0 auto;
+}
+.container_two .row{
+    margin: 0 auto;
+}
+
+/* Portfolio Star */
+.port_main{
+    display: inline-block;
+    position: relative;
+}
+.port_main svg{
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+.port_main img{
+    border-radius: 32px;
+    border: 3px solid rgba(33, 33, 33, 1);
+    border-radius: 32px;
+}
+.portfolio_head{
+    margin-top: 24px;
+}
+.portfolio_head p{
+    font-family: Plus Jakarta Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0em;
+}
+
+/* Form */
+.form-label{
+    font-family: Plus Jakarta Sans;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.form-control{
+    padding: 14px 18px 14px 18px;
+    border-radius: 16px;
+    margin-top: 8px;
+    background-color: rgba(251, 252, 253, 1);
+}
+.form-control::placeholder{
+    color: rgba(153, 163, 177, 1);
+}
+
+
+
+/* Rounded Check */
+.check_main p{
+    font-family: Plus Jakarta Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.rounded-checkbox {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px; 
+    margin-right: 0px; 
+    cursor: pointer;
+    margin-bottom: 38px;
+  }
+  .rounded-checkbox input {
+    opacity: 0;
+    position: absolute;
+    cursor: pointer;
+  }
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px; 
+    width: 20px; 
+    background-color: rgb(205, 209, 213); 
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rounded-checkbox input:checked + .checkmark::before {
+    content: "\2713"; 
+    font-size: 13px; 
+    color: #fff; 
+  }
+  .rounded-checkbox input:checked + .checkmark{
+    background-color: rgba(0, 146, 69, 1) !important;
+  }
+
+  /* Pets Number Button */
+  .pets_number .btn{
+    padding: 11px 20px 11px 20px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(234, 239, 245, 1);
+    border-radius: 16px;
+
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: rgba(153, 163, 177, 1);
+    margin-right: 12px;
+    transition: all 0.5s;
+   }
+   .pets_number .btn:hover{
+    background-color: rgba(33, 33, 33, 1);
+    color: rgba(255, 255, 255, 1);
+    border-color: rgba(33, 33, 33, 1);
+   }
+   .pets_number .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
+    background-color: rgba(33, 33, 33, 1);
+    color: rgba(255, 255, 255, 1);
+    border-color: rgba(33, 33, 33, 1);
+   }
+
+   .format_input p{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(153, 163, 177, 1);
+   }
+   .format_btn .btn{
+    padding: 14px 24px 14px 24px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(234, 239, 245, 1);
+    border-radius: 16px;
+
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: rgba(153, 163, 177, 1);
+    margin-right: 12px;
+    transition: all 0.5s;
+   }
+   .format_btn .btn:hover{
+    background-color: rgba(33, 33, 33, 1);
+    color: rgba(255, 255, 255, 1);
+    border-color: rgba(33, 33, 33, 1);
+   }
+   .format_btn .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
+    background-color: rgba(33, 33, 33, 1);
+    color: rgba(255, 255, 255, 1);
+    border-color: rgba(33, 33, 33, 1);
+   }
+
+   .form-select{
+    padding: 14px 18px 14px 18px;
+    border-radius: 16px;
+    margin-top: 8px;
+    background-color: rgba(251, 252, 253, 1);
+    color: rgba(153, 163, 177, 1) !important;
+   }
+   .form-select{
+    background-size: 26px 18px;
+   }
+    
+   /* Guide Line Start */
+   .guideline_main{
+    border: 1px solid rgba(234, 239, 245, 1);
+    padding: 24px;
+    border-radius: 16px;
+   }
+   .guideline_head{
+    border-bottom: 1px solid rgba(234, 239, 245, 1);
+   }
+   .guideline_head h2{
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+   }
+   .guideline_head p{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(153, 163, 177, 1);
+   }
+   .guideline_content{
+    border-bottom: 1px solid rgba(234, 239, 245, 1);
+    padding-bottom: 20px;
+   }
+   .guideline_one{
+    display: flex;
+    align-items: center !important;
+    margin-top: 12px;
+   }
+   .guideline_one p{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 14px;
+    margin-left: 16px;
+   }
+
+   .guideline_footer{
+      background-color: rgba(251, 176, 59, 0.1);
+      margin-top: 26px;
+      padding: 16px 16px 6px 16px;
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 2px;
+   }
+   .guideline_footer h2{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+   }
+   .guideline_footer p{
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(153, 163, 177, 1);
+    
+   }
+
+   /* Rounded Check */
+.rounded-checkbox-guide {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px; 
+    margin-right: 0px; 
+    cursor: pointer;
+    margin-bottom: 38px;
+  }
+  .rounded-checkbox-guide input {
+    opacity: 0;
+    position: absolute;
+    cursor: pointer;
+  }
+  .checkmark-guide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 29px; 
+    width: 29px; 
+    background-color: white; 
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgba(249, 204, 127, 1);
+  }
+
+  .rounded-checkbox-guide input:checked + .checkmark-guide::before {
+    content: "\2713"; 
+    font-size: 15px; 
+    color: #fff; 
+  }
+  .rounded-checkbox-guide input:checked + .checkmark-guide{
+    background-color: rgba(0, 146, 69, 1) !important;
+    border-color: rgba(0, 146, 69, 1) !important;
+  }
+
+
+
+  /* Silder Start */
+  .carousel-item img{
+    border-radius: 16px;
+  }
+  .carousel-control-prev-icon{
+    background-image: none !important;
+  }
+  .carousel-control-next-icon{
+    background-image: none !important;
+  }
+  .carousel-control-next, .carousel-control-prev{
+    opacity: 1 !important;
+  }
+  .slider_caption{
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 8px;
+    margin-top: 1px;
+  }
+  .slider_cmain{
+    display: flex;
+    align-items: center;
+    color: rgba(0, 146, 69, 1);
+    margin-top: 20px;
+  }
+  .slider_cmaintwo{
+    display: flex;
+    align-items: center;
+    color: rgba(193, 39, 45, 1);
+    margin-top: 20px;
+  }
+
+
+
+
+
+
+
+
+
+
+  /* Upload Section */
+  .upload_section div:first-child{
+    position: relative;
+  }
+  .upload_section div:first-child svg{
+    position: absolute;
+    top: 6px;
+    right: 5px;
+  }
+  
+  /* Browse Section */
+  .browse_section{
+    border: 2px dashed rgba(217, 218, 220, 1);
+    border-radius: 16px;
+    border-style: dashed;
+    border-spacing: 10px;
+    border-collapse: separate;
+    
+  }
+  .browse_section div:first-child{
+    margin-top: 34px;
+  }
+  .browse_section .btn{
+    background-color: transparent !important;
+    border: none !important;
+  }
+  .browse_content{
+    margin-top: 12px;
+    padding-bottom: 24px;
+  }
+  .browse_content p{
+    font-family: Plus Jakarta Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  /* Color Select Start */
+  .color_main{
+    display: inline-block;
+    position: relative;
+  }
+  .color_main svg{
+    position: absolute;
+    top: -5px;
+    right: -5px;
+  }
+  .color_main img{
+    border-radius: 32px;
+    border: 3px solid rgba(33, 33, 33, 1);
+    border-radius: 12px;
+}
+.color_other img{
+    border-radius: 12px;
+}
+.c_margin{
+    margin-top: 20px;
+}
+
+/* Poster Start */
+.poster_section p{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(153, 163, 177, 1);
+}
+
+/* Custom radio button style */
+.custom-radio {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px; /* Adjust this value to change the radio button size */
+    margin-right: 10px; /* Adjust this value to set spacing between radio buttons */
+    cursor: pointer;
+  }
+  
+  /* Hide the default radio input */
+  .custom-radio input {
+    opacity: 0;
+    position: absolute;
+    cursor: pointer;
+  }
+  
+  /* Create the radio button visual */
+  .custom-radio .radio-outer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 24px; /* Adjust this value to change the radio button size */
+    width: 24px; /* Adjust this value to change the radio button size */
+    background-color: white; /* Radio button background color initially white */
+    border: 2px solid black; /* Black border */
+    border-radius: 50%; /* Rounded shape */
+  }
+  
+  /* Show a black dot when the radio button is checked */
+  .custom-radio input:checked + .radio-outer::before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px; /* Size of the inner black dot */
+    height: 12px; /* Size of the inner black dot */
+    background-color: black; /* Color of the inner dot */
+    border-radius: 50%; /* Rounded dot */
+  }
+  .radio_btn{
+    display: flex;
+    flex-direction: column;
+  }
+  .radio_c{
+    display: block;
+    margin-left: 12px;
+    padding: 14px 18px 14px 18px;
+    border-radius: 16px;
+    background-color: rgba(251, 252, 253, 1);
+    border: 1px solid rgba(234, 239, 245, 1);
+  }
+  .custom_one{
+    top: 14px !important;
+  }
+  .content_style{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  /* Font Type Start */
+  .font_main{
+    display: inline-block;
+    position: relative;
+}
+.font_main svg{
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+.font_main img{
+    border-radius: 32px;
+    border: 3px solid rgba(33, 33, 33, 1);
+    border-radius: 12px;
+}
+.font_other img{
+    border-radius: 12px;
+}
+
+.font_head{
+    margin-top: 24px;
+}
+.font_head p{
+    font-family: Plus Jakarta Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0em;
+}
+.instruction_head p:nth-child(2){
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(153, 163, 177, 1);
+}
+.instruction_content{
+    padding: 26px 16px 7px 16px;
+    background-color: rgba(251, 176, 59, 0.1);
+    border-radius: 12px;
+    margin-top: 26px;
+}
+.instruction_content ul li{
+font-family: Plus Jakarta Sans;
+font-size: 18px;
+font-weight: 500;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(226, 141, 8, 1);
+}
+.instruction_content ul li span{
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0em;
+}
+.footer_head p{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(153, 163, 177, 1);
+}
+.footer_input .btn{
+    background-color: transparent;
+    border: 0;
+    color: black;
+}
+.footer_input .btn:hover{
+    background-color: transparent;
+    color: black;
+}
+.footer_input .btn:active{
+    color: black;
+}
+.footer_input{
+    width: 20% !important;
+    margin-top: 20px;
+}
+.dropdown-toggle::after{
+    display: none !important;
+}
+.dropdown-item:active{
+    background-color: transparent;
+}
+.submit_section{
+    display: flex;
+    align-items: center;
+}
+.submit_btn{
+    margin-bottom: 80px;
+    text-align: center;
+    margin-top: 24px;
+}
+.submit_btn .btn{
+    padding: 14px 62px 12px 58px;
+    width: 36%;
+    border-radius: 12px;
+    background-color: rgba(33, 33, 33, 1);
+    color: white;
+    border: 2px solid rgba(33, 33, 33, 1);
+
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+    text-align: center;
+}
+.submit_btn .btn:hover{
+    background-color: white;
+    color: rgba(33, 33, 33, 1);
+}
+
+@media screen and (max-width:768px) {
+  #Hero_one{
+    padding-bottom: 15px;
+  }
+  .portrait_margin{
+    margin-top: 10px;
+  }
+  .format_btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .format_btn .btn{
+    width: 70%;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .format_btn .btn:last-child{
+    margin-bottom: 0;
+  }
+  .guideline_footer h2{
+    line-height: 20px;
+  }
+  .carousel_two{
+    margin-top: 15px;
+  }
+  .upload_middle{
+    text-align: center;
+    margin-top: 5px;
+  }
+  .upload_margin{
+    margin-top: 15px;
+  }
+  .back_margin{
+    margin-top: 15px;
+  }
+  .font_margin{
+    margin-top: 10px;
+  }
+  .submit_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer_input {
+    width: 100% !important;
+    margin-top: 10px;
+  }
+  .submit_btn .btn{
+    width: 60%;
+    padding: 0;
+    height: 50px;
+    text-align: center;
+
+  }
+}
+
+
+@media screen and (max-width:576px) {
+    .navbar-brand img{
+        width: 130px;
+        height: 56px;
+    }
+    .hero_head h1{
+      font-size: 22px;
+  }
+  .hero_head p{
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0em;
+      margin-top: 4px;
+      color: rgba(153, 163, 177, 1);
+  }
+}
+@media screen and (max-width:360px){
+  .pets_number .btn:last-child{
+    margin-top: 5px;
+    margin-right: 0;
+  }
+}
+@media screen and (max-width:300px){
+  .pets_number{
+   display: flex;
+   flex-direction: column;
+  }
+  .pets_number .btn{
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .pets_number .btn:last-child{
+    margin-bottom: 0;
+  }
+}
